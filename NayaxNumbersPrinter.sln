@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintServer", "PrintServer\PrintServer.csproj", "{F7AA93AD-68A7-4B32-81B4-EA3885A7182C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintApi", "PrintApi\PrintApi.csproj", "{3C2A9328-89EC-40ED-A8A0-80968220A837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A0C2DA7-24E9-44BD-868F-3E67F9B48110}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		NayaxNumbersPrinter.sln.DotSettings = NayaxNumbersPrinter.sln.DotSettings
+		Resharper.DotSettings = Resharper.DotSettings
+		Settings.StyleCop = Settings.StyleCop
+		SolutionRules.ruleset = SolutionRules.ruleset
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7AA93AD-68A7-4B32-81B4-EA3885A7182C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AA93AD-68A7-4B32-81B4-EA3885A7182C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AA93AD-68A7-4B32-81B4-EA3885A7182C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AA93AD-68A7-4B32-81B4-EA3885A7182C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2A9328-89EC-40ED-A8A0-80968220A837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2A9328-89EC-40ED-A8A0-80968220A837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2A9328-89EC-40ED-A8A0-80968220A837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2A9328-89EC-40ED-A8A0-80968220A837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13F79453-7B17-47E3-BBFD-04A889946FAF}
+	EndGlobalSection
+EndGlobal
